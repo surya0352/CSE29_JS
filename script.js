@@ -1,6 +1,7 @@
 console.log("Hello World")
 document.write("Hello World!")
-
+var linebreak="<br>";
+document.write(linebreak);
 var num =10;
 console.log(num);
 console.log(typeof(num));
@@ -27,3 +28,10 @@ if (sym1==sym2){
 else{
     console.log("false")
 }
+
+
+var a=100; var b=200;var c=150;var linebreak="<br>";
+document.write("a+b+c=");
+result=a+b+c;
+document.write(result);
+document.write(linebreak)
