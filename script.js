@@ -215,3 +215,52 @@ switch(grade)
 document.write("Existing switch block");
 */
     
+//Function
+/*
+function myFunction()
+{
+    alert("Hello World")
+}
+
+function sayHello(Name,age)
+{
+    document.write(Name+" is"+age+" years old.")
+}
+
+var res=mul(12,30);
+function mul(x,y)
+{
+    return x*y;
+}
+document.write(res);
+*/
+
+//normal funtion
+/*
+function add(a,b)
+{
+    console.log(a+b);
+}
+add(10,20);
+
+//Arrow funtion
+var add1=(a,b) =>
+{
+    console.log(a+b);
+}
+add1(10,20);
+*/
+
+//Object
+/*
+var person ={
+    name:"John mac",
+    age: 30,
+    isMarried:true,
+    address :{
+        street:"Vijay Nagar",
+        flatNo:201
+    }
+};
+console.log(person)
+*/
