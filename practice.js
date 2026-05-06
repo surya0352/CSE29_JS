@@ -8,3 +8,6 @@ console.log("congratulation")
 
 
 
+let fullName=prompt("enter your full name");
+let username="@"+fullName + fullName.length;
+document.write(username);
